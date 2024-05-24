@@ -41,6 +41,10 @@ document.addEventListener('DOMContentLoaded', function () {
   var swiper = new Swiper('#hero-slider', {
     loop: true,
     speed: 500,
+    autoplay:{
+      delay:3000,
+      disableOnInteraction: false,
+    },
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
@@ -58,6 +62,10 @@ new Swiper('#product-swiper', {
   loop: true,
   spaceBetween: 30,
   speed: 500,
+  autoplay:{
+    delay:3000,
+    disableOnInteraction: false,
+  },
   pagination: {
     el: '.swiper-pagination',
     clickable: true,

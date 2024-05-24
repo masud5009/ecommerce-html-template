@@ -316,6 +316,7 @@ a:hover {
     width: 100%;
     position: relative;
     overflow: hidden;
+    max-height: 80vh;
 }
 
 .hero-section .swiper {
@@ -336,6 +337,7 @@ a:hover {
     width: 100%;
     min-height: 100%;
     object-fit: contain;
+    background-color: var(--color-dark);
 }
 
 /*facility section*/
@@ -712,7 +714,14 @@ footer a:hover {
     .navbar-nav{
         display: flex;
     }
-    
+    .mega-menu {
+        position: static;
+        box-shadow: none;
+    }
+
+    .mega-menu .row {
+        flex-direction: column;
+    }
 }
 
 @media (min-width: 992px) {
