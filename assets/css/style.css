@@ -26,6 +26,7 @@ body {
     position: relative;
 }
 
+
 .btn-primary {
     color: var(--color-white);
     background-color: var(--primary-color);
